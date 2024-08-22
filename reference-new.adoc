@@ -1,0 +1,90 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: O ONTAP Cloud 9,3 inclui vários novos recursos e aprimoramentos. 
+---
+= Novidades do ONTAP Cloud 9,3
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O ONTAP Cloud 9,3 inclui vários novos recursos e aprimoramentos.
+
+
+
+== Aprimoramentos de HA na nuvem da ONTAP na AWS
+
+A versão 9,3 atende à resiliência dos pares de HA na nuvem da ONTAP para tolerar falhas de rede ou latências mais altas transitórias no ecossistema da AWS e garantir a disponibilidade dos dados dos clientes durante esses eventos.
+
+
+
+== Suporte para a região da UE (Paris) na AWS
+
+A nuvem ONTAP agora é suportada na região da UE (Paris) na AWS. Com base nos tipos de instâncias compatíveis nesta região, as seguintes configurações de nuvem do ONTAP estão disponíveis na região da UE (Paris):
+
+* Padrão de nuvem ONTAP (R4.xlarge)
+* ONTAP Cloud Premium (r4,2xlarge)
+* ONTAP Cloud BYOL (R4.xlarge e r4,2xlarge.xlarge)
+
+
+
+
+== Desempenho de gravação aprimorado com discos Premium do Azure
+
+O desempenho de gravação para o ONTAP Cloud foi aprimorado no Azure ao usar discos de armazenamento Premium. O aprimoramento é compatível com o ONTAP Cloud Standard, Premium e BYOL.
+
+
+NOTE: Os aprimoramentos de desempenho de gravação não são suportados ao usar o tipo de máquina virtual DS3_v2.
+
+
+
+== Aumento do limite de capacidade para o ONTAP Cloud Premium e BYOL no Azure
+
+O limite de capacidade do ONTAP Cloud Premium e do ONTAP BYOL duplicou para 252 TB quando se usa os tipos de máquina virtual DS5_v2 ou DS14_v2.
+
+
+NOTE: Esta alteração é possível devido a um aumento no número de discos disponíveis por máquina virtual do Azure. Não altera a capacidade máxima por agregado.
+
+
+
+== Suporte para regiões Azure US Gov
+
+Agora você pode implantar o Cloud Manager e o ONTAP Cloud BYOL nas seguintes regiões do Azure:
+
+* US Gov Arizona
+* EUA Gov Texas
+* EUA Gov Virginia
+
+
+Para implantar o Cloud Manager nessas regiões, é necessário criar uma máquina virtual CentOS 7,3 a partir do mercado Azure, fazer o download do instalador do Cloud Manager no site de suporte da NetApp e, em seguida, instalar o software. Depois que o Cloud Manager estiver em execução, você poderá implantar os sistemas BYOL da ONTAP nessas regiões, como qualquer outra região.
+
+
+
+== Suporte para recuperação de desastres da SVM
+
+O ONTAP Cloud é compatível com um SVM de fornecimento de dados e um SVM de destino usado na recuperação de desastres. Você pode ativar o SVM de destino para acesso aos dados se houver uma interrupção na SVM de origem.
+
+A recuperação de desastres do SVM é o espelhamento assíncrono dos dados da SVM e da configuração de uma fonte SVM para um SVM de destino. Você pode ativar rapidamente um SVM de destino para acesso aos dados se a fonte SVM não estiver mais disponível.
+
+
+NOTE: O Cloud Manager não oferece nenhuma configuração ou suporte de orquestração para a recuperação de desastres da SVM. Ele também não dá suporte a tarefas relacionadas ao storage em quaisquer SVMs adicionais. Use o System Manager ou a CLI para recuperação de desastres da SVM.
+
+https://library.netapp.com/ecm/ecm_get_file/ECMLP2839856["Guia expresso de preparação para recuperação de desastres da SVM"^]
+
+https://library.netapp.com/ecm/ecm_get_file/ECMLP2839857["Guia do SVM Disaster Recovery Express"^]
+
+
+
+== Notas de atualização
+
+* As atualizações devem ser concluídas no Cloud Manager. Você não deve atualizar o ONTAP Cloud usando o Gerenciador de sistemas ou a CLI. Isso pode afetar a estabilidade do sistema.
+* Você pode fazer o upgrade para o ONTAP Cloud 9,3 a partir do ONTAP Cloud 9,2.
+* A atualização de um sistema de nó único leva o sistema off-line por até 25 minutos, durante os quais a e/S é interrompida.
+* A atualização de um par de HA não causa interrupções e e/S é ininterrupta. Durante esse processo de atualização sem interrupções, cada nó é atualizado em conjunto para continuar fornecendo e/S aos clientes.
+

@@ -1,0 +1,180 @@
+---
+sidebar: sidebar 
+permalink: reference-storage-limits.html 
+keywords: limits, maximum, storage, aggregates, disks, volumes, capacity, luns, size, storage virtual machine, SVM 
+summary: A nuvem ONTAP tem limites de configuração de storage para fornecer operações confiáveis. Para obter o melhor desempenho, não configure o sistema com os valores máximos. 
+---
+= Limites de armazenamento
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+A nuvem ONTAP tem limites de configuração de storage para fornecer operações confiáveis. Para obter o melhor desempenho, não configure o sistema com os valores máximos.
+
+As seções a seguir listam limites para agregados, volumes, LUNs e objetos de storage relacionados. Observe que a capacidade máxima de um sistema de nuvem ONTAP é específica do modelo. As configurações da nuvem do ONTAP que dão suporte a um limite de capacidade bruta menor não podem atingir alguns dos limites de tamanho e disco.
+
+
+
+== Limites de storage físico para o ONTAP Cloud na AWS
+
+[cols="3*"]
+|===
+| Armazenamento físico | Parâmetro | Limite 
+
+
+.5+| *Agregados e discos* | Número máximo de agregados | 34 para configurações de nó único 18 por nó em uma configuração de HA 1 
+
+
+| Tamanho máximo de agregado | 96 TIB de capacidade bruta 
+
+
+| Discos por agregado | 1-6 2 
+
+
+| Tamanho máximo do disco | 16 TIB 
+
+
+| Número máximo de discos de dados em todos os agregados 3 | 34 para configurações de nó único, 31 por nó em uma configuração de HA 
+
+
+| *Grupos RAID* | Máximo por agregado | 1 
+|===
+Notas:
+
+. Não é possível criar agregados 18 em ambos os nós em um par de HA, pois isso excederia o limite do disco de dados.
+. Todos os discos em um agregado devem ter o mesmo tamanho.
+. O limite do disco de dados é específico para discos que contêm dados do usuário. O disco de inicialização e o disco raiz para cada nó não estão incluídos neste limite.
+
+
+
+
+== Limites de storage físico para o ONTAP Cloud no Azure
+
+[cols="3*"]
+|===
+| Armazenamento físico | Parâmetro | Limite 
+
+
+.5+| *Agregados e discos* | Número máximo de agregados | 63 
+
+
+| Tamanho máximo de agregado | 200 TIB de capacidade bruta 
+
+
+| Discos por agregado | 1-12 1 
+
+
+| Tamanho máximo do disco | 32 TIB 
+
+
+| Número máximo de discos de dados em todos os agregados 2  a| 
+* DS3_v2: 15
+* DS4_v2: 31
+* DS5_v2: 63
+* DS13_v2: 31
+* DS14_v2: 63
+
+
+
+
+| *Grupos RAID* | Máximo por agregado | 1 
+|===
+Notas:
+
+. Todos os discos em um agregado devem ter o mesmo tamanho.
+. O limite do disco de dados é específico para discos que contêm dados do usuário. O disco de inicialização e o disco raiz para cada nó não estão incluídos neste limite.
+
+
+
+
+== Limites lógicos de armazenamento
+
+[cols="22,22,56"]
+|===
+| Storage lógico | Parâmetro | Limite 
+
+
+| *Storage Virtual Machines (SVMs)* | Número máximo de nuvem ONTAP (par de HA ou nó único) | Um SVM de fornecimento de dados e um SVM de destino usado na recuperação de desastres. Você pode ativar o SVM de destino para acesso aos dados se houver uma interrupção na SVM de origem. 1 o único SVM de fornecimento de dados abrange todo o sistema de nuvem ONTAP (par de HA ou nó único). 
+
+
+.2+| *Ficheiros* | Tamanho máximo | 16 TIB 
+
+
+| Máximo por volume | Depende do tamanho do volume, até 2 bilhões 
+
+
+| *Volumes FlexClone* | Profundidade do clone hierárquico 2 | 499 
+
+
+.3+| *Volumes FlexVol* | Máximo por nó | 500 
+
+
+| Tamanho mínimo | 20 MB 
+
+
+| Tamanho máximo | AWS: Dependente do tamanho do agregado 3 Azure: 100 TIB 
+
+
+| *Qtrees* | Máximo por FlexVol volume | 4.995 
+
+
+| *Cópias Snapshot* | Máximo por FlexVol volume | 255 
+|===
+Notas:
+
+. O Cloud Manager não oferece nenhuma configuração ou suporte de orquestração para a recuperação de desastres da SVM. Ele também não dá suporte a tarefas relacionadas a storage em uma SVM adicional. Use o System Manager ou a CLI para recuperação de desastres da SVM.
++
+** https://library.netapp.com/ecm/ecm_get_file/ECMLP2839856["Guia expresso de preparação para recuperação de desastres da SVM"^]
+** https://library.netapp.com/ecm/ecm_get_file/ECMLP2839857["Guia do SVM Disaster Recovery Express"^]
+
+
+. Profundidade de clone hierárquica é a profundidade máxima de uma hierarquia aninhada de volumes FlexClone que pode ser criada a partir de um único FlexVol volume.
+. Menos de 100 TIB é suportado porque os agregados para essa configuração estão limitados a 96 TIB de capacidade _bruta_.
+
+
+
+
+== Limites de armazenamento iSCSI
+
+[cols="3*"]
+|===
+| Armazenamento iSCSI | Parâmetro | Limite 
+
+
+.4+| *LUNs* | Máximo por nó | 1.024 
+
+
+| Número máximo de mapas LUN | 1.024 
+
+
+| Tamanho máximo | 16 TIB 
+
+
+| Máximo por volume | 512 
+
+
+| *grupos* | Máximo por nó | 256 
+
+
+.2+| *Iniciadores* | Máximo por nó | 512 
+
+
+| Máximo por grupo | 128 
+
+
+| * Sessões iSCSI* | Máximo por nó | 1.024 
+
+
+.2+| *LIFs* | Máximo por porta | 32 
+
+
+| Máximo por portset | 32 
+
+
+| *Portsets* | Máximo por nó | 256 
+|===

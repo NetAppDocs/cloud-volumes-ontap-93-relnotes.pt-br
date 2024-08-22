@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">Avisos legais fornecem acesso a declarações de direitos autorais, marcas registradas, patentes e muito mais.</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legais</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Direitos de autor</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marcas comerciais</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, o logotipo DA NetApp e as marcas listadas na página de marcas comerciais da NetApp são marcas comerciais da NetApp, Inc. Outros nomes de produtos e empresas podem ser marcas comerciais de seus respetivos proprietários.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patentes</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Uma lista atual de patentes de propriedade da NetApp pode ser encontrada em:</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Política de privacidade</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Os arquivos de aviso fornecem informações sobre direitos autorais de terceiros e licenças usadas no software NetApp.</block>
+  <block id="7553878dc46732eb783fa42399198626" category="inline-link">Aviso para o ONTAP Cloud 9,3</block>
+  <block id="195462dd865e0cfbe35a3474431836db" category="list-text"><block ref="195462dd865e0cfbe35a3474431836db" category="inline-link-rx"></block></block>
+  <block id="bf7dcf6467a8a03b05b2d37d31d6eccd" category="inline-link">Aviso para ONTAP 9.3</block>
+  <block id="2d4c47b98784bbcb56e001a01d7b9bb2" category="list-text"><block ref="2d4c47b98784bbcb56e001a01d7b9bb2" category="inline-link-rx"></block></block>
+  <block id="34515f1d88b10d0db0a78eba6c533394" category="summary">Problemas conhecidos identificam problemas que podem impedi-lo de usar esta versão do produto com sucesso.</block>
+  <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="doc">Problemas conhecidos</block>
+  <block id="06771acbf463cd61bfb4131e0b8b6f69" category="paragraph">Não há problemas conhecidos nesta versão específicos do ONTAP Cloud.</block>
+  <block id="626a7cbe056796bcb1c158b143866230" category="inline-link">Notas de versão do ONTAP</block>
+  <block id="398d7dd4fa02e30dc6322ad98eff7d2b" category="paragraph">Você pode encontrar problemas conhecidos para o software ONTAP no<block ref="13c0668cefb5d13050e1de01793dacbb" category="inline-link-rx"></block>.</block>
+  <block id="1eba71d64e6c5e410e558530711e835b" category="summary">As limitações conhecidas identificam plataformas, dispositivos ou funções que não são suportadas por esta versão do produto ou que não interoperam corretamente com ele. Revise essas limitações com cuidado.</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="doc">Limitações conhecidas</block>
+  <block id="1ac484b7039a7a63fa107c6b607c9db1" category="section-title">Limitações gerais</block>
+  <block id="b39d3577cc712ce886fc09bbe998ccab" category="paragraph">As limitações a seguir se aplicam ao ONTAP Cloud na AWS e no Azure.</block>
+  <block id="4ab1be901507467113ec58325fc4e033" category="section-title">Máximo de operações de replicação simultânea</block>
+  <block id="55daffc7827b6ec74240106a8f647473" category="paragraph">O número máximo de transferências simultâneas de SnapMirror ou SnapVault para Cloud Volumes ONTAP é de 100 por nó, independentemente do tipo de instância ou do tipo de máquina.</block>
+  <block id="1d7a5501cfb31aff808abb63ef9085c2" category="section-title">As atualizações de software devem ser concluídas pelo Cloud Manager</block>
+  <block id="93e3c3d0ea43d600b3c3cd4548ea3987" category="paragraph">As atualizações do Cloud Volumes ONTAP devem ser concluídas a partir do Cloud Manager. Você não deve atualizar o Cloud Volumes ONTAP usando o Gerenciador de sistema ou a CLI. Isso pode afetar a estabilidade do sistema.</block>
+  <block id="3025339147261c7f73e0b6df943d2d01" category="section-title">A criptografia não é suportada em discos de inicialização e raiz</block>
+  <block id="177117fbb321113a54fc190ebcd2d986" category="paragraph">Se você ativou uma opção do seu provedor de nuvem que criptografa automaticamente todos os novos volumes ou discos, desative essa opção temporariamente ao implantar o ONTAP Cloud. Se você não fizer isso, então a implantação do ONTAP Cloud falhará. A criptografia não é suportada nos discos de inicialização e raiz do sistema ONTAP Cloud.</block>
+  <block id="79da11b6b41ffc6c6c6fab1c74ab20e4" category="section-title">A implantação do ONTAP Cloud não deve ser modificada a partir do console do seu provedor de nuvem</block>
+  <block id="b3cb2123a9008ed93517887faef83c51" category="paragraph">As alterações em uma configuração da nuvem ONTAP a partir do console do seu provedor de nuvem resultam em uma configuração não suportada. Qualquer alteração nos recursos de nuvem do ONTAP que o Cloud Manager cria e gerencia pode afetar a estabilidade do sistema e a capacidade do Cloud Manager de gerenciar o sistema.</block>
+  <block id="871cdf07a10d1cc27cb3166e7a820a66" category="section-title">Os discos e agregados devem ser gerenciados no Cloud Manager</block>
+  <block id="dbdb55d3acfbb139cd66db544b19d738" category="paragraph">Todos os discos e agregados devem ser criados e excluídos diretamente do Cloud Manager. Você não deve executar essas ações de outra ferramenta de gerenciamento. Isso pode afetar a estabilidade do sistema, dificultar a capacidade de adicionar discos no futuro e, potencialmente, gerar taxas redundantes de provedores de nuvem.</block>
+  <block id="4d2719ea5599a5bf1a9973d3b247f959" category="section-title">Limitação de licenciamento do SnapManager</block>
+  <block id="597d549c4528fd1014dfc9a36581e1e9" category="paragraph">As licenças SnapManager por servidor são suportadas com o ONTAP Cloud. As licenças por sistema de storage (pacote SnapManager) não são suportadas.</block>
+  <block id="c3f5fdee9b6adb6eccff2d4c189ead12" category="section-title">Funcionalidades ONTAP não suportadas</block>
+  <block id="d11287ca8c12d850cc15aa766f9ac462" category="paragraph">Os recursos a seguir não são compatíveis com o ONTAP Cloud:</block>
+  <block id="a031ea731cd3c4992b7f33bad9f72a00" category="list-text">Deduplicação in-line de nível de agregado</block>
+  <block id="98e2e51de88bd2dae78a66fdad91936c" category="list-text">Deduplicação em segundo plano de nível de agregado</block>
+  <block id="5873635ff256383dcb0b47a0e49f71b1" category="list-text">Centro de manutenção do disco</block>
+  <block id="ddf5f13c3a2f670d7fd623c41af1d112" category="list-text">Sanitização de disco</block>
+  <block id="5903a917b575023b60264c602c220771" category="list-text">Fibre Channel (FC)</block>
+  <block id="19f331bf338a964b49dd874ec165f553" category="list-text">Piscinas flash</block>
+  <block id="f24ce81f056d5acd59788df7f5ab36a1" category="list-text">FlexCache</block>
+  <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="list-text">Volumes FlexGroup</block>
+  <block id="f8f6de059b38ff18eef47014d953c662" category="list-text">Volumes infinitos</block>
+  <block id="09ab988c99cc61af08cebf0d39a00ac5" category="list-text">Grupos de interfaces</block>
+  <block id="ac140a63a61ac75e47b5b4ef17eec52d" category="list-text">Failover de LIF Intranode</block>
+  <block id="1749d12df3df2319d3eee218a277ff83" category="list-text">MetroCluster</block>
+  <block id="b55b56ade65204a678bf4727dbda623f" category="list-text">Alocação a vários clientes (apenas um SVM com serviço de dados é compatível)</block>
+  <block id="c4b8c29f448328e82ce27062b5fd9c28" category="list-text">Criptografia de volume do NetApp</block>
+  <block id="951de4e4bdae5ad5598a048ed6a6f1e3" category="list-text">RAID4, RAID-DP, RAID-TEC (RAID0 é suportado)</block>
+  <block id="0ec5130d573357ea4d244f018e39ae85" category="list-text">Processador de serviço</block>
+  <block id="acdc6b4f6edd40f37bce01247a32ff86" category="list-text">SnapLock</block>
+  <block id="974658d7ac018cb945e78365b0a760fb" category="list-text">SnapMirror síncrono</block>
+  <block id="87495e311a3944910e3cc0c7bee3d754" category="list-text">VLANs</block>
+  <block id="c05b99ea66da2025b377f089fb69b4f5" category="section-title">Limitações conhecidas da nuvem ONTAP na AWS</block>
+  <block id="ef9e5a195f2165ea9c4e28771b6e4be2" category="paragraph">As limitações conhecidas a seguir afetam a nuvem ONTAP na AWS.</block>
+  <block id="c564897ef3b9328940c3edd5bc917926" category="section-title">Alarmes falsos relatados pelo Amazon CloudWatch</block>
+  <block id="0207304dc0fac79583ab4e93e140e455" category="paragraph">O ONTAP Cloud não libera CPUs quando ociosas, portanto, o Amazon CloudWatch pode relatar um aviso de CPU alto para a instância do EC2 porque ele vê 100% de uso. Pode ignorar este alarme. O comando ONTAP statistics exibe o verdadeiro uso das CPUs.</block>
+  <block id="f34c79a463961fe2ed67a453e6c8b4bf" category="section-title">Os pares de HA na nuvem da ONTAP não são compatíveis com storage imediato</block>
+  <block id="d69dddad3d38a1500a52e7e599cb94df" category="paragraph">Depois que um nó é reiniciado, o parceiro deve sincronizar os dados antes que ele possa retornar o armazenamento. O tempo necessário para sincronizar os dados depende da quantidade de dados gravados pelos clientes enquanto o nó estava inativo e da velocidade de gravação de dados durante o tempo de giveback.</block>
+  <block id="9a90be0279d86ec235a377a69c0265b1" category="section-title">Limitações com a região AWS GovCloud (EUA)</block>
+  <block id="cb272a6dc5e534974a2ae26644e5635f" category="list-text">O Cloud Manager deve ser implantado em uma região do AWS GovCloud (EUA) se você quiser iniciar instâncias do Cloud Volumes ONTAP em qualquer região do AWS GovCloud (EUA).</block>
+  <block id="43a81dc93c1a3bd801620774bec57e73" category="list-text">A AMI de pagamento conforme o uso da nuvem da ONTAP não é compatível na região AWS GovCloud (EUA).</block>
+  <block id="af42a8f64444f18c249df7b02bd832b9" category="list-text">Quando implantado na região AWS GovCloud (EUA), o Cloud Manager não consegue descobrir clusters do ONTAP em uma configuração de armazenamento privado do NetApp para Microsoft Azure ou em uma configuração de armazenamento privado do NetApp para SoftLayer.</block>
+  <block id="916b99a311a21768c98adaa376c7b711" category="section-title">A remoção e a reinstalação de volumes EBS não é suportada</block>
+  <block id="3aaa917b04d268d2b6ea8d5443e69ed1" category="paragraph">Desconetar um volume do EBS de uma instância do ONTAP Cloud e anexá-lo novamente a outra instância do ONTAP Cloud não é suportado. Você deve usar o Cloud Manager para replicar dados entre instâncias.</block>
+  <block id="2cc62620c228ce169a39b075837e0e5a" category="section-title">Limitações de criptografia</block>
+  <block id="4be7c99cc4f32c3c625df57a663c9fda" category="list-text">O LUN Move não é suportado em sistemas que tenham a encriptação ONTAP Cloud ativada.</block>
+  <block id="7c3219a6e60034a457ba203e3497fbcc" category="list-text">A nuvem ONTAP envia chaves de criptografia para gerenciadores de chaves, mesmo para agregados que não foram criados.</block>
+  <block id="e6cd7708d37be14be1ec14b31818d9c9" category="paragraph">Você deve excluir manualmente as chaves dos gerenciadores de chaves.</block>
+  <block id="06a91767fc122f0b847bf2303af9101d" category="summary">O ONTAP Cloud 9,3 inclui vários novos recursos e aprimoramentos.</block>
+  <block id="c678a52774fa882a82a7be18eeee82cb" category="doc">Novidades do ONTAP Cloud 9,3</block>
+  <block id="717c1fe37061a1a759e7203e61787cd6" category="section-title">Aprimoramentos de HA na nuvem da ONTAP na AWS</block>
+  <block id="3480aee6aa58df9e0e9dbb38b84c614a" category="paragraph">A versão 9,3 atende à resiliência dos pares de HA na nuvem da ONTAP para tolerar falhas de rede ou latências mais altas transitórias no ecossistema da AWS e garantir a disponibilidade dos dados dos clientes durante esses eventos.</block>
+  <block id="1101bc5dbfc89615c41afb432bdd34d5" category="section-title">Suporte para a região da UE (Paris) na AWS</block>
+  <block id="2a29da454384fcfbc406c3b861eae014" category="paragraph">A nuvem ONTAP agora é suportada na região da UE (Paris) na AWS. Com base nos tipos de instâncias compatíveis nesta região, as seguintes configurações de nuvem do ONTAP estão disponíveis na região da UE (Paris):</block>
+  <block id="870b293eb2505fe3368ed925b8306560" category="list-text">Padrão de nuvem ONTAP (R4.xlarge)</block>
+  <block id="486dbeccf98aa83838e74d9b90666910" category="list-text">ONTAP Cloud Premium (r4,2xlarge)</block>
+  <block id="70ff18336f82f3d20c410b7699dcc96b" category="list-text">ONTAP Cloud BYOL (R4.xlarge e r4,2xlarge.xlarge)</block>
+  <block id="a32876dfd9bdf513847afeab46434971" category="section-title">Desempenho de gravação aprimorado com discos Premium do Azure</block>
+  <block id="bd5ddc6ac5d1f7e712d0aae97150b0fd" category="paragraph">O desempenho de gravação para o ONTAP Cloud foi aprimorado no Azure ao usar discos de armazenamento Premium. O aprimoramento é compatível com o ONTAP Cloud Standard, Premium e BYOL.</block>
+  <block id="49ce3c072e30d902ec1b34944f949463" category="admonition">Os aprimoramentos de desempenho de gravação não são suportados ao usar o tipo de máquina virtual DS3_v2.</block>
+  <block id="6f135a88353201374d728312b717f0d0" category="section-title">Aumento do limite de capacidade para o ONTAP Cloud Premium e BYOL no Azure</block>
+  <block id="9b9693049f21769eb704217dcd22577b" category="paragraph">O limite de capacidade do ONTAP Cloud Premium e do ONTAP BYOL duplicou para 252 TB quando se usa os tipos de máquina virtual DS5_v2 ou DS14_v2.</block>
+  <block id="2e71f95c15dcfe366a63185a20b979ad" category="admonition">Esta alteração é possível devido a um aumento no número de discos disponíveis por máquina virtual do Azure. Não altera a capacidade máxima por agregado.</block>
+  <block id="c05ff147467161f1b504adebce0cae40" category="section-title">Suporte para regiões Azure US Gov</block>
+  <block id="e35dc9532c39726f1a90e47c3a95f34e" category="paragraph">Agora você pode implantar o Cloud Manager e o ONTAP Cloud BYOL nas seguintes regiões do Azure:</block>
+  <block id="fe729f954754c3b607fbb5f9bf109bb3" category="list-text">US Gov Arizona</block>
+  <block id="c7aad6b569ebf354dd3c0fe637f91e5a" category="list-text">EUA Gov Texas</block>
+  <block id="c13d0e30fd62b9a062da50add3af207e" category="list-text">EUA Gov Virginia</block>
+  <block id="31e77e1a551dab6d964b288a0b879e58" category="paragraph">Para implantar o Cloud Manager nessas regiões, é necessário criar uma máquina virtual CentOS 7,3 a partir do mercado Azure, fazer o download do instalador do Cloud Manager no site de suporte da NetApp e, em seguida, instalar o software. Depois que o Cloud Manager estiver em execução, você poderá implantar os sistemas BYOL da ONTAP nessas regiões, como qualquer outra região.</block>
+  <block id="c8b42d90c0b1e777dcf532cb530e7cdb" category="section-title">Suporte para recuperação de desastres da SVM</block>
+  <block id="9b4bed0881e3654290a880c61a0a8adf" category="paragraph">O ONTAP Cloud é compatível com um SVM de fornecimento de dados e um SVM de destino usado na recuperação de desastres. Você pode ativar o SVM de destino para acesso aos dados se houver uma interrupção na SVM de origem.</block>
+  <block id="df74876976170ec27accb2a084d9532e" category="paragraph">A recuperação de desastres do SVM é o espelhamento assíncrono dos dados da SVM e da configuração de uma fonte SVM para um SVM de destino. Você pode ativar rapidamente um SVM de destino para acesso aos dados se a fonte SVM não estiver mais disponível.</block>
+  <block id="a7659117c7517b7f23ad1798b5a53c3d" category="admonition">O Cloud Manager não oferece nenhuma configuração ou suporte de orquestração para a recuperação de desastres da SVM. Ele também não dá suporte a tarefas relacionadas ao storage em quaisquer SVMs adicionais. Use o System Manager ou a CLI para recuperação de desastres da SVM.</block>
+  <block id="412af2a2404a4e920b18be59197204b0" category="inline-link">Guia expresso de preparação para recuperação de desastres da SVM</block>
+  <block id="c15bb50c43eaf0ceb1bc0ce3d7503ebd" category="paragraph"><block ref="c15bb50c43eaf0ceb1bc0ce3d7503ebd" category="inline-link-rx"></block></block>
+  <block id="a06e9c241b02eb678d35f19c0eec257f" category="inline-link">Guia do SVM Disaster Recovery Express</block>
+  <block id="84e6a974fd77c552b4d54c8a9b0727ab" category="paragraph"><block ref="84e6a974fd77c552b4d54c8a9b0727ab" category="inline-link-rx"></block></block>
+  <block id="b5cb41a6703cf18b4cecd5a0817f91cf" category="section-title">Notas de atualização</block>
+  <block id="a3989974582bd51e705fcb9449a7185d" category="list-text">As atualizações devem ser concluídas no Cloud Manager. Você não deve atualizar o ONTAP Cloud usando o Gerenciador de sistemas ou a CLI. Isso pode afetar a estabilidade do sistema.</block>
+  <block id="201bc9587a8b00034e50b14ea2bdb149" category="list-text">Você pode fazer o upgrade para o ONTAP Cloud 9,3 a partir do ONTAP Cloud 9,2.</block>
+  <block id="9f0f02784feedfa2549a9e3a51cfa315" category="list-text">A atualização de um sistema de nó único leva o sistema off-line por até 25 minutos, durante os quais a e/S é interrompida.</block>
+  <block id="00795e3f043d0bab791590ffc0257204" category="list-text">A atualização de um par de HA não causa interrupções e e/S é ininterrupta. Durante esse processo de atualização sem interrupções, cada nó é atualizado em conjunto para continuar fornecendo e/S aos clientes.</block>
+  <block id="b7146193748c9abe7b57ee8d1a61e329" category="summary">A nuvem ONTAP tem limites de configuração de storage para fornecer operações confiáveis. Para obter o melhor desempenho, não configure o sistema com os valores máximos.</block>
+  <block id="150a34e7bbdf7765066eae5fadb9f919" category="doc">Limites de armazenamento</block>
+  <block id="4044d85e7b76a3d297b700c150a40918" category="paragraph">As seções a seguir listam limites para agregados, volumes, LUNs e objetos de storage relacionados. Observe que a capacidade máxima de um sistema de nuvem ONTAP é específica do modelo. As configurações da nuvem do ONTAP que dão suporte a um limite de capacidade bruta menor não podem atingir alguns dos limites de tamanho e disco.</block>
+  <block id="bb26a89afcfb38667928a2a366f342dc" category="section-title">Limites de storage físico para o ONTAP Cloud na AWS</block>
+  <block id="95cf25e2a61c86e4040b221c03b8ae9c" category="cell">Armazenamento físico</block>
+  <block id="83f499a540b1323009c200d6f8cc9396" category="cell">Parâmetro</block>
+  <block id="80d2677cf518f4d04320042f4ea6c146" category="cell">Limite</block>
+  <block id="2eb2ec48ff8e6aca4ad2ebb6ed236ad8" category="cell">*Agregados e discos*</block>
+  <block id="82420b01cfee82b0c54b049d0dbfad9f" category="cell">Número máximo de agregados</block>
+  <block id="132b9480aa78f86685207b541b60eba1" category="cell">34 para configurações de nó único 18 por nó em uma configuração de HA 1</block>
+  <block id="fb036cbd7d294e0cb30d09908d1a5107" category="cell">Tamanho máximo de agregado</block>
+  <block id="a204f172aa7caebd3b3b2b9d2ec1e132" category="cell">96 TIB de capacidade bruta</block>
+  <block id="c540b9e7edec4adafdaa9dff60f7a893" category="cell">Discos por agregado</block>
+  <block id="d21008939e91fc2c87c5bd73ce61f11d" category="cell">1-6 2</block>
+  <block id="4b4891ea5a4ccf6a32baf317c31a9391" category="cell">Tamanho máximo do disco</block>
+  <block id="ec74a96b5afa8d112b06af3bec8272c2" category="cell">16 TIB</block>
+  <block id="330801eec68c902d096505dce2047222" category="cell">Número máximo de discos de dados em todos os agregados 3</block>
+  <block id="7e0dd5b4cf88ccff8b1568ee90eef6e8" category="cell">34 para configurações de nó único, 31 por nó em uma configuração de HA</block>
+  <block id="a7dc3cf40fc3dbedc1ebc28cf91eda4d" category="cell">*Grupos RAID*</block>
+  <block id="dbd356a5b5e1ba37820f09c9f2a2d60a" category="cell">Máximo por agregado</block>
+  <block id="c4ca4238a0b923820dcc509a6f75849b" category="cell">1</block>
+  <block id="2a01d572b1447155c310cabafac3fae9" category="paragraph">Notas:</block>
+  <block id="d1fbeaa75f4f2a9514bcd729f6b07b0d" category="list-text">Não é possível criar agregados 18 em ambos os nós em um par de HA, pois isso excederia o limite do disco de dados.</block>
+  <block id="a40e4d3ab198f5d9c9e23e409e7abae3" category="list-text">Todos os discos em um agregado devem ter o mesmo tamanho.</block>
+  <block id="6d81b5c2163d9f1acadd87489bc3f0d8" category="list-text">O limite do disco de dados é específico para discos que contêm dados do usuário. O disco de inicialização e o disco raiz para cada nó não estão incluídos neste limite.</block>
+  <block id="a92ba6792f9853072e9870e12b13f14a" category="section-title">Limites de storage físico para o ONTAP Cloud no Azure</block>
+  <block id="03afdbd66e7929b125f8597834fa83a4" category="cell">63</block>
+  <block id="fbc4399b9fc335570d967196eccf7968" category="cell">200 TIB de capacidade bruta</block>
+  <block id="14ec5ad7468995ef9509b7b8677f5599" category="cell">1-12 1</block>
+  <block id="d556a98bff3e1e758e87dd72b174feca" category="cell">32 TIB</block>
+  <block id="96f22c61376cbcef17e4f0717e8988ec" category="cell">Número máximo de discos de dados em todos os agregados 2</block>
+  <block id="3e96a4bdfa8031603ede440ecdb76f93" category="list-text">DS3_v2: 15</block>
+  <block id="d8bd73ec57187ec1bd4c464764bfcb4a" category="list-text">DS4_v2: 31</block>
+  <block id="87194571bdb3c163825f541c1ff9d4a8" category="list-text">DS5_v2: 63</block>
+  <block id="9bdffb453a5fc3f9861b9626617a650d" category="list-text">DS13_v2: 31</block>
+  <block id="173509483cf303b1e6063ea0208f04b0" category="list-text">DS14_v2: 63</block>
+  <block id="41a0b1e6c6d31716c7d7b603ce6a4936" category="section-title">Limites lógicos de armazenamento</block>
+  <block id="609158be2075d0d9724b333b2cf217be" category="cell">Storage lógico</block>
+  <block id="73a985be794327e4a037c64d0184774a" category="cell">*Storage Virtual Machines (SVMs)*</block>
+  <block id="df554467f487a724095030a24683021b" category="cell">Número máximo de nuvem ONTAP (par de HA ou nó único)</block>
+  <block id="22582156bad3d0a2f7e7e37b620d6825" category="cell">Um SVM de fornecimento de dados e um SVM de destino usado na recuperação de desastres. Você pode ativar o SVM de destino para acesso aos dados se houver uma interrupção na SVM de origem. 1 o único SVM de fornecimento de dados abrange todo o sistema de nuvem ONTAP (par de HA ou nó único).</block>
+  <block id="ada4ff97f4dda398688956bbaf1ce0aa" category="cell">*Ficheiros*</block>
+  <block id="acfc7717e24258e6355ba4036bf1654d" category="cell">Tamanho máximo</block>
+  <block id="5fde77af1cc98552a17479ea4938c6ed" category="cell">Máximo por volume</block>
+  <block id="6658f671a312c005fd3f0bde5aaba9ae" category="cell">Depende do tamanho do volume, até 2 bilhões</block>
+  <block id="acc9d26dccf8fcf5c9981e0276173b11" category="cell">*Volumes FlexClone*</block>
+  <block id="fa6258f6bacddead986c2cbf9e97e512" category="cell">Profundidade do clone hierárquico 2</block>
+  <block id="3cf166c6b73f030b4f67eeaeba301103" category="cell">499</block>
+  <block id="d8d8f4430afb6c5dda89bc1fbd1911b8" category="cell">*Volumes FlexVol*</block>
+  <block id="02987178f371226dd1e6ace7f7e0b273" category="cell">Máximo por nó</block>
+  <block id="cee631121c2ec9232f3a2f028ad5c89b" category="cell">500</block>
+  <block id="9dba50d3a2c2f26daddbf9d144c49772" category="cell">Tamanho mínimo</block>
+  <block id="e2fca4ed20d01d1eda8a934cf81cb194" category="cell">20 MB</block>
+  <block id="d10365266fe1f35502445b7acb304f69" category="cell">AWS: Dependente do tamanho do agregado 3 Azure: 100 TIB</block>
+  <block id="f870c45bb6c4b8bad8f13c8dc3439f98" category="cell">*Qtrees*</block>
+  <block id="8032f0290a7c4e00a6da3a195523a94e" category="cell">Máximo por FlexVol volume</block>
+  <block id="38de34e4b49b8adfeb2c678818915204" category="cell">4.995</block>
+  <block id="1a07b3809a1ae9afeb461f935181ced5" category="cell">*Cópias Snapshot*</block>
+  <block id="fe131d7f5a6b38b23cc967316c13dae2" category="cell">255</block>
+  <block id="f930216066584d74a1d100b4781661f9" category="list-text">O Cloud Manager não oferece nenhuma configuração ou suporte de orquestração para a recuperação de desastres da SVM. Ele também não dá suporte a tarefas relacionadas a storage em uma SVM adicional. Use o System Manager ou a CLI para recuperação de desastres da SVM.</block>
+  <block id="b4eacaee3fd29fd401387ce7ccd891ae" category="list-text">Profundidade de clone hierárquica é a profundidade máxima de uma hierarquia aninhada de volumes FlexClone que pode ser criada a partir de um único FlexVol volume.</block>
+  <block id="878a0744735c40dd8cf5831bd9d1d54d" category="list-text">Menos de 100 TIB é suportado porque os agregados para essa configuração estão limitados a 96 TIB de capacidade _bruta_.</block>
+  <block id="ec8aa8d5c4770248f40bea57751b61ef" category="section-title">Limites de armazenamento iSCSI</block>
+  <block id="a00bd30f35d2e0308f1c006da5cee5f6" category="cell">Armazenamento iSCSI</block>
+  <block id="10c47847009b4c424d942318791fd6ff" category="cell">*LUNs*</block>
+  <block id="a980f22074119d4103953f70f2fd69ce" category="cell">1.024</block>
+  <block id="65da019cf34a472cbf71786c4ca724c0" category="cell">Número máximo de mapas LUN</block>
+  <block id="10a7cdd970fe135cf4f7bb55c0e3b59f" category="cell">512</block>
+  <block id="bb1780abec6df99659ba08adda027cab" category="cell">*grupos*</block>
+  <block id="f718499c1c8cef6730f9fd03c8125cab" category="cell">256</block>
+  <block id="28744ac550329e87641062231651a872" category="cell">*Iniciadores*</block>
+  <block id="dec03d5b1ceadd3a6f07097ef203fcdb" category="cell">Máximo por grupo</block>
+  <block id="76dc611d6ebaafc66cc0879c71b5db5c" category="cell">128</block>
+  <block id="50f3dc313c9f274380529358d5ea6650" category="cell">* Sessões iSCSI*</block>
+  <block id="d454388b41e56cfc66661cf1c85b8be8" category="cell">*LIFs*</block>
+  <block id="107778c598e69e673409276fc9a0543d" category="cell">Máximo por porta</block>
+  <block id="6364d3f0f495b6ab9dcf8d3b5c6e0b01" category="cell">32</block>
+  <block id="aa894911c7a20e27572cf7a8c1e15231" category="cell">Máximo por portset</block>
+  <block id="7c8102fb403c417ae4b6e28c0e3352ba" category="cell">*Portsets*</block>
+  <block id="4669e54cbde06e871d1db0add6ec40f1" category="summary">A nuvem ONTAP está disponível em várias configurações na AWS e no Azure.</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="doc">Configurações compatíveis</block>
+  <block id="cac55cd41d3809cf2d0cf2d6fdec426f" category="paragraph">O ONTAP Cloud está disponível na AWS e no Azure em duas opções de preço: Pagamento conforme o uso e traga sua própria licença (BYOL). Para pagamento conforme o uso, você pode escolher entre três configurações: Explore, Standard ou Premium.</block>
+  <block id="2df4911835bcec0d8ce74ece219354a4" category="section-title">Nuvem da ONTAP para AWS</block>
+  <block id="ab719622baec6dfb2d651689498e5ffa" category="paragraph">Na AWS, você pode implantar o ONTAP Cloud como um único sistema ou par de HA.</block>
+  <block id="1819001b72329e2ef5799fe504238035" category="cell">Explore</block>
+  <block id="eb6d8ae6f20283755b339c0dc273988b" category="cell">Padrão</block>
+  <block id="8d5e7e72f12067991186cdf3cb7d5d9d" category="cell">Premium</block>
+  <block id="b650b6a0e30782e5c59c3db6f2644347" category="cell">BYOL</block>
+  <block id="9c88bb419e41b475218165e62571062b" category="cell">Tipos de instância do EC2</block>
+  <block id="b315e87fe13b3c2bfc23cd6e95c4d7d9" category="cell">m4.xlarge</block>
+  <block id="b4cd677d00e2a06b3556b8a40415f793" category="list-text">m4.2xlarge</block>
+  <block id="824948b89484cfc1904fd5a42bd21699" category="list-text">r4.xlarge</block>
+  <block id="c99d0382ccb24aa084764b2dd4e3b426" category="list-text">c4.4xlarge</block>
+  <block id="3f997ef144f48e4b699d961d57f3c225" category="list-text">c4.8xlarge</block>
+  <block id="44963cb40f2d3d493c1176db3813e069" category="list-text">m4.4xlarge</block>
+  <block id="e630bf936b5ba73baa7f14780de62d9e" category="list-text">r4.2xlarge</block>
+  <block id="a423c9d0cefd3f66a1caac02c8c7f0f9" category="cell">Storage subjacente</block>
+  <block id="27ef3bb0cd014e90a9854a53907936ea" category="cell">SSDs de uso geral, SSDs IOPS provisionados, HDDs otimizados de taxa de transferência e HDDs frios, até 16 TIB por disco</block>
+  <block id="1ac9dc96fca283317dbfa0018ffd6ebc" category="cell">Limite de capacidade da licença</block>
+  <block id="7916f32f06eaabdf61df576419c0c138" category="cell">2 TIB</block>
+  <block id="4a67bdd5f30eeac9ad064fc6433dc926" category="cell">10 TIB</block>
+  <block id="61dcfaac24363a16e4b318c1317f0309" category="cell">368 TIB</block>
+  <block id="7751129b8546a0da65fb379b1cc9c243" category="cell">368 TIB por licença</block>
+  <block id="8977b73662bf68f481bf8915d2a4bbb8" category="list-text">Configurações de pagamento conforme o uso não são compatíveis com o GovCloud (EUA).</block>
+  <block id="9de28fbf6817cd511eb799f9575b611d" category="list-text">Quando você escolhe um tipo de instância EC2, você pode especificar se é uma instância compartilhada ou uma instância dedicada.</block>
+  <block id="e2be4ad7f1e1203ba7f3d2af47d19fdd" category="list-text">O desempenho de gravação aprimorado é suportado ao usar SSDs EBS com ONTAP Cloud Standard, Premium e BYOL.</block>
+  <block id="13162bf30327abdba3d09f8e1c60b64e" category="list-text">A disposição de dados em categorias é compatível com o padrão de nuvem, o Premium e o BYOL da ONTAP.</block>
+  <block id="11f741fe0ee39ada647e4516d0574ff2" category="list-text">Se você habilitar a disposição de dados em categorias, o limite de capacidade de um sistema permanecerá o mesmo. O limite de capacidade inclui discos e armazenamento de objetos.</block>
+  <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Regiões globais do Cloud volumes</block>
+  <block id="cb104b2dcdc78de65cc73aeaefde0837" category="list-text">Para obter suporte à região da AWS,<block ref="ac98146aa56916be7717a50257418923" category="inline-link-rx"></block> consulte .</block>
+  <block id="32ced4ad9724b29c3509b663ee4658c7" category="section-title">Nuvem da ONTAP para Azure</block>
+  <block id="aec43df3118114472b9dabb21326a8ae" category="paragraph">No Azure, você pode implantar o ONTAP Cloud como um sistema de nó único.</block>
+  <block id="5fbb3d7412f89cff55389171f83d7684" category="cell">Tipos de máquinas virtuais</block>
+  <block id="2be187f608e3ad4af24d83ba1557f439" category="cell">DS3_v2</block>
+  <block id="83eca86ff243df4e1646a92d7c304973" category="list-text">DS4_v2</block>
+  <block id="1388ff45ca6939d3ddda6032143844f9" category="list-text">DS13_v2</block>
+  <block id="d5dcfd54bc69651d879cec73cf9d8daa" category="list-text">DS5_v2</block>
+  <block id="b72144fa0a4e25809ce8fa02430673a7" category="list-text">DS14_v2</block>
+  <block id="50bb513ae39b44421d182e4072a83998" category="cell">Discos gerenciados HDD padrão, discos gerenciados SSD padrão e discos gerenciados SSD premium, até 32 TIB por disco</block>
+  <block id="aa9528fad85cffe83be0372dc56e2966" category="list-text">O desempenho de gravação aprimorado é suportado ao usar discos de armazenamento Premium do Azure com ONTAP Cloud Standard, Premium e BYOL, mas não ao usar o tipo de máquina virtual DS3_v2.</block>
+  <block id="f1d030b53e2e410016e67d8d3b5484c4" category="list-text">Para obter suporte à região do Azure,<block ref="ac98146aa56916be7717a50257418923" category="inline-link-rx"></block> consulte .</block>
+  <block id="8d3d4f13602cd5a25a775931599b70ea" category="sidebar">Essas notas de versão descrevem novos recursos, limitações e problemas conhecidos do ONTAP Cloud 9,3.</block>
+  <block id="d5e6ac2df92a695122340bdc7757b16e" category="sidebar">Notas de versão do ONTAP Cloud 9,3</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Comece agora</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
+  <block id="e19968c5ebc4b94a271992f4b0563be8" category="sidebar">Configurações e limites</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="sidebar">Limitações</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs &amp; comunidade</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidade NetApp</block>
+  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Blog do Cloud Central</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinars na nuvem</block>
+  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">Notas de lançamento para casa</block>
+</blocks>
