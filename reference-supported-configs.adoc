@@ -61,7 +61,7 @@ Notas:
 . O desempenho de gravação aprimorado é suportado ao usar SSDs EBS com ONTAP Cloud Standard, Premium e BYOL.
 . A disposição de dados em categorias é compatível com o padrão de nuvem, o Premium e o BYOL da ONTAP.
 . Se você habilitar a disposição de dados em categorias, o limite de capacidade de um sistema permanecerá o mesmo. O limite de capacidade inclui discos e armazenamento de objetos.
-. Para obter suporte à região da AWS, https://cloud.netapp.com/cloud-volumes-global-regions["Regiões globais do Cloud volumes"] consulte .
+. Para obter suporte à região da AWS, https://bluexp.netapp.com/cloud-volumes-global-regions["Regiões globais do Cloud volumes"] consulte .
 
 
 
@@ -101,5 +101,5 @@ No Azure, você pode implantar o ONTAP Cloud como um sistema de nó único.
 Notas:
 
 . O desempenho de gravação aprimorado é suportado ao usar discos de armazenamento Premium do Azure com ONTAP Cloud Standard, Premium e BYOL, mas não ao usar o tipo de máquina virtual DS3_v2.
-. Para obter suporte à região do Azure, https://cloud.netapp.com/cloud-volumes-global-regions["Regiões globais do Cloud volumes"] consulte .
+. Para obter suporte à região do Azure, https://bluexp.netapp.com/cloud-volumes-global-regions["Regiões globais do Cloud volumes"] consulte .
 
